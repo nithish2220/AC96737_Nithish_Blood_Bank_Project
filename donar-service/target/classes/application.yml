@@ -1,11 +1,0 @@
-server:
-  port: 8001
-
-spring:  application:    name: donar-service
-      datasource:    url: jdbc:oracle:thin:@//localhost:1521/XEPDB1
-    username: hr
-    password: hr
-  jpa:    show-sql: true
-        hibernate:      ddl-auto: update
-      
-eureka:  client:    service-url:      defaultZone: http://localhost:8000/eureka
